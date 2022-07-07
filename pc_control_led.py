@@ -9,7 +9,7 @@ def do_connect():
     wlan.active(True)
     if not wlan.isconnected():
         print('connecting to network...')
-        wlan.connect('Hery', '44332211')
+        wlan.connect('xxx', 'xxxxxxxx')
         i = 1
         while not wlan.isconnected():
             print('connecting to wifi...{}'.format(i))
