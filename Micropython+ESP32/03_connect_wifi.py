@@ -12,12 +12,12 @@ wlan.scan()
 
 
 # connect wifi
-wlan.connect('Hery','44332211')
+wlan.connect('xxxx','xxxxxxxx')
 wlan.isconnected()
 
 # ifconfig wifi
 wlan.ifconfig()
-('192.168.0.204', '255.255.255.0', '192.168.0.1', '192.168.0.1')
+('xxx.168.0.xxx', '255.255.255.0', '192.168.0.1', '192.168.0.1')
 
 # connect socket
 udp_socket = socket(AF_INET, SOCK_DGRAM)
@@ -31,4 +31,4 @@ udp_socket.sendto(send_data.encode('utf-8'),dest_addr)
 # reciept data
 recv_data = udp_socket.recvfrom(1024)
 recv_data
-(b'Hello world', ('192.168.0.54', 8080))
+(b'Hello world', ('xxx.xxx.0.54', xxxx))
